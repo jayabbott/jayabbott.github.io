@@ -1,0 +1,117 @@
+.body {
+    height:100vh;
+}
+
+p, a, ul, li, b, span {
+    font-size: 1.00em;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.brand {
+    margin-bottom: 0px;
+}
+
+ul {
+    padding-inline-start: 20px;
+}
+
+.navbar {
+    font-size: 1.0em;
+}
+
+.logo {
+    height: 1.5em;
+    margin-top: -6px;
+    margin-right: 0.4em;
+}
+
+.masthead {
+    /*height: 100vh;*/
+    min-height: 200px;
+    /**background-image: url('images/698976-unsplash-compress.jpg');*/
+    background: rgb(218,223,217);
+    background: linear-gradient(145deg, rgba(218,223,217,1) 0%, rgba(226,227,221,1) 50%, rgba(239,240,235,1) 51%, rgba(232,237,231,1) 100%);
+
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 6em;
+    padding-bottom: 2em;
+}
+
+.jay-profile {
+    /*float: none;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.navbar-brand span {
+    color: rgb(130, 196, 240);
+}
+
+.content-adj-img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(153, 153, 153);
+}
+
+.content-img { 
+  /*position: relative; */
+  width: 100%; /* for IE 6 */
+  height: 200px;
+}
+
+.content-img h4 { 
+  position: absolute; 
+  top: 60%;
+  left: 15px;
+  width: calc(100% - 30px);
+  color: #c5c5c5;
+  letter-spacing: -1px;
+  font-size: 1.2rem;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.75);
+  padding: 10px;
+  /*margin-left: 15px;*/
+}
+
+.content-img h4 span { 
+  color: #ffffff;
+}
+
+.projects-section {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(231,231,231,1) 100%);
+}
+
+.contact-section {
+    background: #E0E1DB;
+}
+
+.copyright-section {
+    background: rgb(174, 175, 170);
+}
+
+.social-icon {
+font-size: 3em;
+color: rgb(34, 65, 100);
+}
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
